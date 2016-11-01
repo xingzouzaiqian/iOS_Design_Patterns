@@ -11,7 +11,7 @@
 @implementation OperationAdd
 
 - (double)getResult{
-    double result = _numberA + _numberB;
+    double result = self.numberA + self.numberB;
     return result;
 }
 

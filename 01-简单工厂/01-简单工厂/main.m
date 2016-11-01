@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Operation.h"
+#import "OperationFactory.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        
+        Operation *oper;
+        oper = [OperationFactory createOperate:@"/"];
+        oper.numberA = 1;
+        oper.numberB = 0;
+        
+        double result = [oper getResult];
+        
+        NSLog(@"%lf", result);
     }
     return 0;
 }

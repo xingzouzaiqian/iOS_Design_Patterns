@@ -43,6 +43,7 @@
 		DDABCCAA1DC80F3E000E3883 /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDiv.m; sourceTree = "<group>"; };
 		DDABCCAC1DC810A9000E3883 /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
 		DDABCCAD1DC810A9000E3883 /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		DDABCCAF1DC95B09000E3883 /* UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UML.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 				DDABCCAA1DC80F3E000E3883 /* OperationDiv.m */,
 				DDABCCAC1DC810A9000E3883 /* OperationFactory.h */,
 				DDABCCAD1DC810A9000E3883 /* OperationFactory.m */,
+				DDABCCAF1DC95B09000E3883 /* UML.png */,
 			);
 			path = "01-简单工厂";
 			sourceTree = "<group>";
@@ -252,6 +254,7 @@
 		DDABCC9C1DC80D45000E3883 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = NS_BLOCK_ASSERTIONS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -275,6 +278,7 @@
 				DDABCC9C1DC80D45000E3883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

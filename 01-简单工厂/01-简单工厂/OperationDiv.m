@@ -12,8 +12,8 @@
 
 - (double)getResult{
     double result = 0;
-    NSAssert(_numberB == 0, @"除数不能为0")
-    result = _numberA / _numberB;
+    NSAssert(self.numberB != 0.000000, @"除数不能为0");
+    result = self.numberA / self.numberB;
     return result;
 }
 

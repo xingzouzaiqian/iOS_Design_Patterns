@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OperationAdd.h"
-#import "OperationSub.h"
-#import "OperationDiv.h"
-#import "OperationMul.h"
+#import "Operation.h"
 
 @interface OperationFactory : NSObject
+
++ (Operation *)createOperate:(NSString *)operate;
 
 @end
