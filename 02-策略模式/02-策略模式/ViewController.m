@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CashSuper.h"
+#import "CashFactory.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *singlePrice;
@@ -23,10 +25,17 @@
 @property (nonatomic, assign) double total;
 @end
 
+double total = 0;
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    CashSuper *cashSuper = [CashFactory  createCashAccept:@""];
+    double totalPrices = 0d;
+    totalPrices = [cashSuper acceptCash:[self.singlePrice doubleValue]] * [self.number.text integerValue];
+    total += totalPrices;
+    
     
     
 }

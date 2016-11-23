@@ -17,6 +17,7 @@
 		DDABCCFB1DCAAEAA000E3883 /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCCFA1DCAAEAA000E3883 /* CashNormal.m */; };
 		DDABCCFE1DCAAEF0000E3883 /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCCFD1DCAAEF0000E3883 /* CashRebate.m */; };
 		DDABCD011DCAB429000E3883 /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCD001DCAB429000E3883 /* CashReturn.m */; };
+		DDABCD041DDD1F5B000E3883 /* CashFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCD031DDD1F5B000E3883 /* CashFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		DDABCCFD1DCAAEF0000E3883 /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
 		DDABCCFF1DCAB429000E3883 /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
 		DDABCD001DCAB429000E3883 /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		DDABCD021DDD1F5B000E3883 /* CashFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashFactory.h; sourceTree = "<group>"; };
+		DDABCD031DDD1F5B000E3883 /* CashFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				DDABCCFD1DCAAEF0000E3883 /* CashRebate.m */,
 				DDABCCFF1DCAB429000E3883 /* CashReturn.h */,
 				DDABCD001DCAB429000E3883 /* CashReturn.m */,
+				DDABCD021DDD1F5B000E3883 /* CashFactory.h */,
+				DDABCD031DDD1F5B000E3883 /* CashFactory.m */,
 				DDABCCDF1DCAA696000E3883 /* Supporting Files */,
 			);
 			path = "02-策略模式";
@@ -177,6 +182,7 @@
 				DDABCCE41DCAA696000E3883 /* AppDelegate.m in Sources */,
 				DDABCD011DCAB429000E3883 /* CashReturn.m in Sources */,
 				DDABCCE11DCAA696000E3883 /* main.m in Sources */,
+				DDABCD041DDD1F5B000E3883 /* CashFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +331,7 @@
 				DDABCCF51DCAA696000E3883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

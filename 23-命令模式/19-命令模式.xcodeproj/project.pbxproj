@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDABCED01DE0A4F8000E3883 /* BakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCEC61DE0A4F8000E3883 /* BakeChickenWingCommand.m */; };
+		DDABCED11DE0A4F8000E3883 /* BakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCEC81DE0A4F8000E3883 /* BakeMuttonCommand.m */; };
+		DDABCED21DE0A4F8000E3883 /* Barbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCECA1DE0A4F8000E3883 /* Barbecuer.m */; };
+		DDABCED31DE0A4F8000E3883 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCECC1DE0A4F8000E3883 /* Command.m */; };
+		DDABCED41DE0A4F8000E3883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCECD1DE0A4F8000E3883 /* main.m */; };
+		DDABCED51DE0A4F8000E3883 /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDABCECF1DE0A4F8000E3883 /* Waiter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D56941BA1DC6E304007A11DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D56941BC1DC6E304007A11DB /* 19-命令模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-命令模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDABCEC51DE0A4F8000E3883 /* BakeChickenWingCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BakeChickenWingCommand.h; sourceTree = "<group>"; };
+		DDABCEC61DE0A4F8000E3883 /* BakeChickenWingCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BakeChickenWingCommand.m; sourceTree = "<group>"; };
+		DDABCEC71DE0A4F8000E3883 /* BakeMuttonCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BakeMuttonCommand.h; sourceTree = "<group>"; };
+		DDABCEC81DE0A4F8000E3883 /* BakeMuttonCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BakeMuttonCommand.m; sourceTree = "<group>"; };
+		DDABCEC91DE0A4F8000E3883 /* Barbecuer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbecuer.h; sourceTree = "<group>"; };
+		DDABCECA1DE0A4F8000E3883 /* Barbecuer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barbecuer.m; sourceTree = "<group>"; };
+		DDABCECB1DE0A4F8000E3883 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		DDABCECC1DE0A4F8000E3883 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		DDABCECD1DE0A4F8000E3883 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDABCECE1DE0A4F8000E3883 /* Waiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		DDABCECF1DE0A4F8000E3883 /* Waiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D56941B91DC6E304007A11DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D56941B31DC6E303007A11DB = {
+			isa = PBXGroup;
+			children = (
+				DDABCEC41DE0A4F8000E3883 /* 19-命令模式 */,
+				D56941BD1DC6E304007A11DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D56941BD1DC6E304007A11DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56941BC1DC6E304007A11DB /* 19-命令模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDABCEC41DE0A4F8000E3883 /* 19-命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				DDABCEC51DE0A4F8000E3883 /* BakeChickenWingCommand.h */,
+				DDABCEC61DE0A4F8000E3883 /* BakeChickenWingCommand.m */,
+				DDABCEC71DE0A4F8000E3883 /* BakeMuttonCommand.h */,
+				DDABCEC81DE0A4F8000E3883 /* BakeMuttonCommand.m */,
+				DDABCEC91DE0A4F8000E3883 /* Barbecuer.h */,
+				DDABCECA1DE0A4F8000E3883 /* Barbecuer.m */,
+				DDABCECB1DE0A4F8000E3883 /* Command.h */,
+				DDABCECC1DE0A4F8000E3883 /* Command.m */,
+				DDABCECD1DE0A4F8000E3883 /* main.m */,
+				DDABCECE1DE0A4F8000E3883 /* Waiter.h */,
+				DDABCECF1DE0A4F8000E3883 /* Waiter.m */,
+			);
+			path = "19-命令模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D56941BB1DC6E304007A11DB /* 19-命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56941C31DC6E304007A11DB /* Build configuration list for PBXNativeTarget "19-命令模式" */;
+			buildPhases = (
+				D56941B81DC6E304007A11DB /* Sources */,
+				D56941B91DC6E304007A11DB /* Frameworks */,
+				D56941BA1DC6E304007A11DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-命令模式";
+			productName = "23-命令模式";
+			productReference = D56941BC1DC6E304007A11DB /* 19-命令模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D56941B41DC6E303007A11DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PanYard;
+				TargetAttributes = {
+					D56941BB1DC6E304007A11DB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D56941B71DC6E304007A11DB /* Build configuration list for PBXProject "19-命令模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D56941B31DC6E303007A11DB;
+			productRefGroup = D56941BD1DC6E304007A11DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D56941BB1DC6E304007A11DB /* 19-命令模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D56941B81DC6E304007A11DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDABCED41DE0A4F8000E3883 /* main.m in Sources */,
+				DDABCED51DE0A4F8000E3883 /* Waiter.m in Sources */,
+				DDABCED21DE0A4F8000E3883 /* Barbecuer.m in Sources */,
+				DDABCED01DE0A4F8000E3883 /* BakeChickenWingCommand.m in Sources */,
+				DDABCED11DE0A4F8000E3883 /* BakeMuttonCommand.m in Sources */,
+				DDABCED31DE0A4F8000E3883 /* Command.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D56941C11DC6E304007A11DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D56941C21DC6E304007A11DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D56941C41DC6E304007A11DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "19-命令模式";
+			};
+			name = Debug;
+		};
+		D56941C51DC6E304007A11DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "19-命令模式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D56941B71DC6E304007A11DB /* Build configuration list for PBXProject "19-命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56941C11DC6E304007A11DB /* Debug */,
+				D56941C21DC6E304007A11DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56941C31DC6E304007A11DB /* Build configuration list for PBXNativeTarget "19-命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56941C41DC6E304007A11DB /* Debug */,
+				D56941C51DC6E304007A11DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D56941B41DC6E303007A11DB /* Project object */;
+}
